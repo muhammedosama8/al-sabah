@@ -15,12 +15,12 @@ const Navbar = () =>{
           </button>
           <div className="collapse navbar-collapse" style={{width: 'fit-content'}} id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <NavLink to='/' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page" >المحلية</NavLink>
-              <NavLink to='/categories' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page">الغربية</NavLink>
+              <NavLink to='/' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page" >الرئيسية</NavLink>
+              <NavLink to='/categories' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page">الافتتاحية</NavLink>
               <NavLink to='/products' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page">العالمية</NavLink>
               <NavLink to='/about-us' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page">الاقتصاد</NavLink>
               <NavLink to='/contact' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page">الرياضة</NavLink>
-              <NavLink to='/contac' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page">برامجنا</NavLink>
+              <NavLink to='/contac' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page">تلفزيون الصباح</NavLink>
             </div>
           </div>
         </div>
