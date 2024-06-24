@@ -1,0 +1,19 @@
+.live-modal{
+    background: #333;
+}
+.live-modal .modal-dialog {
+    max-width: 100%;
+    margin-top: 5rem;
+}
+.live-modal .modal-body,
+.live-modal .modal-content {
+    padding: 0;
+    background: none;
+}
+.live-modal .ytp-title-enable-channel-logo:not(.ytp-mweb-player) .html5-endscreen:not(.ytp-shorts-branded-ui) {
+    display: none !important;
+}
+.live-modal iframe{
+    width: 100%;
+    height: 75vh;
+}

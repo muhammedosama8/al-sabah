@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Almarai-Bold';
+  src: url('../src/common/Font/Almarai-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Almarai-Bold',sans-serif!important;
+  overflow: hidden;
+}
+*{
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color: #0E3A5D;
+  --bg-primary-color: #f69321;
+}
+.text-primary{
+  color: var(--primary-color) !important;
+}

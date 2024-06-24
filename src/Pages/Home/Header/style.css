@@ -1,0 +1,32 @@
+.header {
+    position: relative;
+}
+.header iframe{
+    width: 100%;
+    height: calc(100vh - 146px);
+
+}
+.header .live{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 12px 26px;
+    width: 10.5rem;
+    background: #fff;
+    border: none;
+    border-radius: 25px;
+}
+.header .live::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 52%;
+    right: 8px;
+    transform: translate(0px, -50%);
+}
+.header .live .bi{
+    margin-right: 12px;
+}
