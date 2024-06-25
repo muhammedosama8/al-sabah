@@ -1,0 +1,109 @@
+.selectedNews{
+    margin-top: 4rem;
+}
+.selectedNews .titles {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 1rem;
+    align-items: baseline;
+}
+.selectedNews .titles .main-title{
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 900 !important;
+    margin-bottom: 0;
+    position: relative;
+    line-height: normal;
+}
+.selectedNews .titles .sub-title{
+    margin: 0;
+    font-size: 16px;
+}
+.selectedNews .mainNew,
+.selectedNews .subMain-div{
+    position: relative;
+}
+.selectedNews .subMain-div{
+    height: 32%;
+    margin-bottom: .86rem;
+}
+.selectedNews .subMain-div:last-of-type{
+    margin: 0;
+}
+.selectedNews .subMain-div img{
+    height: 100%;
+}
+.selectedNews .mainNew .desc{
+    position: absolute;
+    z-index: 9;
+    color: #fff;
+    background: rgba(0, 0, 0, .6);
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    width: calc(100% - 2em);
+    padding: 2.5rem 1.1rem 1.1rem 60px;
+}
+.selectedNews .subMain-div .details{
+    position: absolute;
+    z-index: 9;
+    color: #fff;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    width: calc(100% - 2em);
+    padding: 1rem 1.1rem 1.1rem 60px;
+}
+.selectedNews .mainNew .type,
+.selectedNews .subMain-div .type{
+    color: #fff;
+    background: var(--primary-color);
+    margin-bottom: .6rem;
+    width: fit-content;
+    padding: 5px 18px;
+    border-radius: 20px;
+}
+.selectedNews .mainNew .since,
+.selectedNews .subMain-div .since{
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+.selectedNews .mainNew .title,
+.selectedNews .subMain-div .title{
+    height: auto;
+    max-height: 3.84em;
+    margin: 0 auto;
+    font-size: 1.5em;
+    line-height: 1.6;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+.selectedNews .mainNew .desc::after,
+.selectedNews .subMain-div .details::after{
+    content: "<";
+    padding: 0px 9px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    font-weight: 300;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    opacity: .6;
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+}
+.selectedNews .mostReading{
+    height: 14.73%;
+    margin-bottom: 1rem;
+}
+.selectedNews .mostReading .title{
+    font-weight: 600 !important;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

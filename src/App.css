@@ -1,0 +1,9 @@
+.custom-container{
+  width: 98%;
+  margin:auto;
+}
+a.view_all {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .85rem;
+}

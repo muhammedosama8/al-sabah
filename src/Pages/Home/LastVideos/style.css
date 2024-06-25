@@ -1,0 +1,70 @@
+.videos{
+    margin-top: 4rem;
+}
+.videos .titles {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 1rem;
+    align-items: baseline;
+}
+.videos .titles p{
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 900 !important;
+    margin-bottom: 0;
+    position: relative;
+    line-height: normal;
+}
+.videos .video .vid{
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+}
+.videos .video .vid .details{
+    color: #fff;
+    height: 260px;
+    padding: 4rem 1.1rem 1.1rem 60px;
+    background-color: rgba(0, 0, 0, .4)
+}
+.videos .video .vid .play{
+    color: red;
+    font-size: 2.2rem;
+    position: absolute;
+    z-index: 9999;
+
+    left: 12px;
+    bottom: 12px;
+}
+.videos .video .vid .details .since{
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+.videos .video .vid .details .title{
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.videos .swiper{
+    overflow: visible !important;
+} 
+.videos .swiper-button-next, 
+.videos .swiper-rtl .swiper-button-prev{
+    position: absolute;
+    top: -25px;
+}
+.videos .swiper-button-next{
+    left: 0 !important;
+}
+.videos .swiper-rtl .swiper-button-prev{
+    left: 28px !important;
+    right: auto;
+}
+.videos .swiper-button-next::after, 
+.videos .swiper-rtl .swiper-button-prev::after{
+    font-size: 16px;
+    color: red;
+}
