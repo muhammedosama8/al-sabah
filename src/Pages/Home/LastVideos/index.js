@@ -18,8 +18,8 @@ const LastVideos = () => {
         {title: 'النفط يتراجع متأثراً بصعود الدولار وسط مخاوف «الفائدة المرتفعة»', time: 'ساعتين', img: new1},
         {title: "صرف المكافأة التشجيعية لعمال «النفط»... غداً", time: '٣ ساعات', img: new2},
     ])
-    return <Row className="videos custom-container">
-        <Col md={12} className="video">
+    return <div className="videos custom-container">
+        <div className="video">
             <div style={{overflow: 'hidden'}}>
                 <div className="titles">
                     <p>آخر الفيديوهات</p>
@@ -59,7 +59,7 @@ const LastVideos = () => {
                     })}
                 </Swiper>
             </div>
-        </Col>
-    </Row>
+        </div>
+    </div>
 }
 export default LastVideos;
