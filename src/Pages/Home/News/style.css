@@ -31,6 +31,9 @@
     margin-bottom: 0;
     font-size: .9rem;
 }
+.news .importants{
+    padding-left: 0;
+}
 .news .importants .important{
     background-size: cover;
     cursor: pointer;
