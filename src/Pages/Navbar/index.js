@@ -1,12 +1,11 @@
 import { NavLink } from 'react-router-dom'
-import sabah from '../../assets/sabah.jpeg'
+import logo from '../../assets/logo.png'
 import './style.css'
-import { useEffect } from 'react'
 
 const Navbar = () =>{
   return <div>
     <div className='logo text-center' id='logo'>
-      <img src={sabah} alt='sabah' width={190} height={70} />
+      <img src={logo} alt='sabah' width={190} height={70} />
     </div>
     <nav className="navbar navbar-expand-lg" id='navbar'>
         <div className='m-auto'>

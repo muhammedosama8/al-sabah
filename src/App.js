@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { useEffect } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import Footer from './Pages/Footer';
 
 function App() {
   useEffect(()=>{
@@ -27,10 +28,11 @@ function App() {
     <div className={`App`}>
         <ScrollToTop />
         <Navbar />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='*' element={<Error404 />} />
-          </Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='*' element={<Error404 />} />
+        </Routes>
+        <Footer />
     </div>
   );
 }
