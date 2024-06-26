@@ -7,7 +7,7 @@ import './style.css'
 
 const Footer = () => {
     return <div className="footer">
-        <img src={logo} alt='sabah' width={190} height={70} />
+        <img src={logo} alt='sabah' width={220} height={100} />
         <div className="links">
             <NavLink to='/' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page" >الرئيسية</NavLink>
             <NavLink to='/categories' className={({ isActive }) => isActive ? "active nav-link py-0" : "nav-link py-0"} aria-current="page">الافتتاحية</NavLink>
